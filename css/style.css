@@ -1,0 +1,612 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.mainColor {
+  color: #20c997 !important;
+}
+
+.nav-link {
+  color: white;
+  transition: all 0.3s;
+}
+
+nav ul li a {
+  color: white !important;
+  font-size: 16px !important ;
+  transition: all 0.3s;
+}
+
+nav ul li a:hover {
+  color: #20c997 !important;
+}
+
+.navbar-toggler {
+  font-size: 25px;
+}
+
+.navbar-toggler-icon {
+  color: white !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/*  header home  */
+#home
+{
+  background-image: url(../image/intro-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: 100vh;
+}
+
+#home .layer {
+  width: 100%;
+  height: 100%;
+  background-color: #111418;
+  opacity: 0.8;
+}
+#home .layer  h1 {
+  font-size: 68px;
+  font-weight: 600;
+}
+
+h1::after {
+  content: " | ";
+  animation-name: typing;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+  0% { content: " |";}
+  1% { content: " S |";}
+  2% { content: " Si |";}
+  3% { content: " Sim |";}
+  4% { content: " Simo |";}
+  5% { content: " Simon|";}
+  6% { content: " Simone|";}
+  7% { content: " Simone O|";}
+  8% { content: " Simone Ol|";}
+  9% { content: " Simone Oli|";}
+  10% { content: " Simone Oliv|";}
+  12% { content: " Simone Olivi|";}
+  13% { content: " Simone Olivia|";}
+  14% { content: " Simone Olivi|";}
+  15% { content: " Simone Oliv|";}
+  16% { content: " Simone Oli|";}
+  17% { content: " Simone Ol|";}
+  18% { content: " Simone O|";}
+  19% { content: " Simone |";}
+  20% { content: " Simone|";}
+  22% { content: " Simon|";}
+  23% { content: " Simo|";}
+  24% { content: " Sim|";}
+  25% { content: " Si|";}
+  26% { content: " S|";}
+  28% { content: " |";}
+  29% { content: " a |";}
+  30% { content: " a F |";}
+  31% { content: " a Fr |";}
+  32% { content: " a Fre |";}
+  33% { content: " a Free|";}
+  34% { content: " a Freel|";}
+  35% { content: " a Freela|";}
+  36% { content: " a Freelan|";}
+  37% { content: " a Freelanc|";}
+  38% { content: " a Freelance|";}
+  39% { content: " a Freelancer|";}
+  40% { content: " a Freelancer.|";}
+  41% { content: " a Freelancer|";}
+  42% { content: " a Freelance|";}
+  43% { content: " a Freelanc|";}
+  44% { content: " a Freelan|";}
+  45% { content: " a Freela|";}
+  46% { content: " a Freel|";}
+  47% { content: " a Free|";}
+  48% { content: " a Fre|";}
+  49% { content: " a Fr|";}
+  50% { content: " a F|";}
+  51% { content: " a |";}
+  52% { content: " a P |";}
+  53% { content: " a Ph|";}
+  54% { content: " a Pho|";}
+  55% { content: " a Phot|";}
+  56% { content: " a Photo|";}
+  57% { content: " a Photog|";}
+  58% { content: " a Photogr|";}
+  59% { content: " a Photogra|";}
+  60% { content: " a Photograp|";}
+  61% { content: " a Photograph|";}
+  62% { content: " a Photographe|";}
+  63% { content: " a Photographer|";}
+  64% { content: " a Photographer.|";}
+  65% { content: " a Photographer|";}
+  67% { content: " a Photographe|";}
+  68% { content: " a Photograph|";}
+  69% { content: " a Photograp|";}
+  70% { content: " a Photogra|";}
+  71% { content: " a Photogr|";}
+  72% { content: " a Photog|";}
+  73% { content: " a Photo|";}
+  74% { content: " a Phot|";}
+  75% { content: " a Pho|";}
+  76% { content: " a Ph|";}
+  77% { content: " a |";}
+  78% { content: " a D|";}
+  79% { content: " a De|";}
+  80% { content: " a Des|";}
+  81% { content: " a Desi|";}
+  82% { content: " a Desig|";}
+  83% { content: " a Design|";}
+  84% { content: " a Designe|";}
+  85% { content: " a Designer|";}
+  86% { content: " a Designer.|";}
+  88% { content: " a Designer|";}
+  90% { content: " a Designe|";}
+  91% { content: " a Design|";}
+  92% { content: " a Desig|";}
+  95% { content: " a Desi|";}
+  96% { content: " a Des|";}
+  97% { content: " a De|";}
+  98% { content: " a D|";}
+  100% { content: " a |";}
+}
+
+#home .layer p {
+  font-size: 22px;
+}
+
+#home .layer button {
+  background-color: transparent;
+  border: 2px solid #20C997;
+  border-radius: 35px;
+  color: #20C997;
+  text-transform: capitalize;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+#home .layer button:hover {
+  background-color: #20C997;
+  color: #fff;
+}
+
+#home .layer .arrow i {
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 35px;
+  padding-top: 35px;
+  font-size: 22px;
+  animation: move 2s infinite;
+  cursor: pointer;
+}
+
+@keyframes move {
+  0% {transform: translateY(0)}
+  100% {transform: translateY(60px)}
+}
+
+/* -------- section About---- */
+.BackTitle {
+  color: #e6ebeb;
+  font-weight: 700;
+  font-size: 100px;
+  z-index: 1;
+}
+
+.FrontTitle {
+  font-weight: 600;
+  font-size: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.FrontTitle::after {
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1BAA80;
+  width: 80px;
+  height: 3px;
+}
+
+#about .left h3 {
+  font-weight: 600;
+}
+
+#about .left p {
+  color: #4c4d4d;
+}
+
+#about .right p {
+  font-size: 17px;
+  color: #4c4d4d;
+  border-bottom: solid 1px rgb(218, 213, 213);
+}
+
+#about .right .brdr {
+  border: none;
+}
+
+#about .right p span {
+  font-weight: 600;
+}
+
+#about .right button {
+  background-color: #20C997;
+  color: #fff;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 12px 35px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0 0 20px rgb(180, 177, 177);
+  transition: all 1s;
+  cursor: pointer;
+}
+
+#about .right button:hover
+{
+  background-color:#1BAA80;
+}
+
+.subnumber {
+  font-size: 45px;
+  color: #6c757d;
+}
+
+#about .text {
+  font-size: 17px;
+  color: #4c4d4d;
+}
+
+#about .brdr {
+  border-left: dashed 1px rgb(219, 214, 214);
+}
+
+
+/*  section Services  */
+#services , #portflio , #contact {
+  background-color: #F8F9FA;
+}
+
+#services .icon {
+  background-color: white;
+  border-radius: 10px;
+}
+
+#services .icon i {
+  font-size: 40px;
+  color: #20C997;
+}
+
+#services h3 {
+  color: #252b33;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#services p {
+  color: #4c4d4d;
+}
+
+/*  Section Resume */
+#resume .text {
+  color: #252b33;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.itemLeft , .itemRight {
+  border: 1px solid #d8dbdd;
+  border-radius: 3px;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.green {
+  background-color: #20c997;
+  width: fit-content;
+  color: #fff;
+  font-size: 14px;
+  padding: 0 10px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
+.itemLeft h3 , .itemRight h3 {
+  color: #252b33;
+  font-weight: 500;
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+
+.red {
+  color: #dc3545;
+  margin-bottom: 12px;
+}
+
+.text2 {
+  color: #4c4d4d;
+}
+
+.mainTitle {
+  color: #252b33;
+  font-size: 24px;
+}
+
+.text3 p {
+  color: #212529;
+  font-size: 15px;
+}
+
+.progres-par {
+  width: 100%;
+  height: 9px;
+  border-radius: 5px;
+  background-color: #d8dbdd;
+  position: relative;
+}
+
+.progres-par span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 65%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #20C997;
+}
+
+.progres-par .bar-2{
+  width: 70%;
+}
+
+.progres-par .bar-3{
+  width: 95%;
+}
+
+.progres-par .bar-4{
+  width: 60%;
+}
+
+.progres-par .bar-5{
+  width: 80%;
+}
+
+.progres-par .bar-6{
+  width: 99%;
+}
+
+#resume button {
+  background-color: transparent;
+  border: 1px solid #6c757d;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 600px;
+  color: #6c757d;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+#resume  button:hover {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+/*  Section Portfolio */
+
+.nav-pills .nav-link {
+  color: black;
+  font-size: 15px;
+  border-bottom: solid 2px transparent;
+}
+
+.nav-link:hover {
+  color: #20C997;
+}
+
+.nav-pills .nav-link.active {
+  background-color: transparent ;
+  color: #20C997;
+  border-bottom: solid 2px #20C997;
+}
+
+.port {
+  text-align: center;
+  overflow: hidden;
+}
+
+.port p {
+  font-size: 18px;
+}
+
+.port span {
+  color: #dee3e4;
+}
+
+.port img {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.port:hover img {
+  transform: scale(1.1);
+}
+
+.port:hover .layerTwo  {
+  opacity: 1;
+}
+
+.layerTwo {
+  content: "";
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.57);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+
+/*  section testmonail  */
+#testmonail img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+#testmonail .client {
+  background-color: #F8F9FA;
+}
+
+#testmonail .client .one {
+  color: #212529;
+  font-weight: 600;
+}
+
+#testmonail .client .two {
+  color: #6c757d;
+}
+
+#testmonail .bottom p {
+  color: #212529;
+}
+
+#testmonail .stars {
+  color: #F1C30D;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  margin: 10px 2px !important;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #20C997;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots span {
+  background-color: #20C997;
+}
+
+/*  section Contact  */
+.form h3 , .info h3 {
+  color:#252b33;
+  font-size: 21px;
+}
+
+.info p {
+  color: #4c4d4d;
+}
+
+.info p i {
+  color: #20C997;
+}
+
+#contact button {
+  background-color: #20C997;
+  color: #fff;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 12px 35px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  box-shadow: 0 0 20px rgb(180, 177, 177);
+  transition: all 1s;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color:#1BAA80;
+}
+
+#contact input:focus , #contact textarea:focus {
+    border: #83aadd 1px solid;
+    box-shadow: 0 0 10px #83aadd ;
+    outline: none;
+}
+
+/*  footer */
+footer p {
+  color: #252b33;
+  font-size: 17px;
+}
+
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  color:  #20C997;
+  z-index: 1000;
+}
+
+/* -----------------------media Query-------------------- */
+@media screen and (max-width:568px)
+{
+  #home h1 {
+    font-size: 32px !important;
+  }
+
+  .BackTitle  {
+    font-size: 50px !important;
+  }
+
+  .FrontTitle {
+    font-size: 30px;
+  }
+
+  #about .left , #about .right {
+    margin: 0 20px !important;
+  }
+
+  #about .brdr-3 {
+    border: none;
+  }
+
+  #about .brdr1 {
+    border-bottom: dashed 1px rgb(219, 214, 214);
+  }
+
+  #contact .row {
+    flex-direction: column-reverse;
+  }
+
+  #contact .info {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center !important;
+  }
+}
+
+@media screen and (min-width:569px) and (max-width:768px)
+{
+  #about .brdr-3 {
+    border: none;
+  }
+
+  #about .brdr1 {
+    border-bottom: dashed 1px rgb(219, 214, 214);
+  }
+}
